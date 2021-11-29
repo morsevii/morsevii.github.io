@@ -12,12 +12,25 @@
 </head>
 <body>
 <div class="container">
+<div class="row">
+<div class="col-md-12">
+<form>
+
 Enter Interpoling Point: <input type="text" id="txtIP" />
 <br />
 
-X: <input type="text" id="txtX" />
-Y: <input type="text" id="txtY" />
-<input type="button" value="Add to table" id="btnAdd" />
+
+<div class="form-row">
+  <div class="col-7">
+    <input type="text" class="form-control" placeholder="Enter X" id="txtX">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Enter Y" id="txtY">
+  </div> 
+  <div class="col">
+    <input type="button" class="btn btn-primary" id="btnAdd" > 
+  </div> 
+</div>
 
 <table id="tblData" class="table table-responsive table-stripped table-condensed">
 <thead>
@@ -32,8 +45,10 @@ Y: <input type="text" id="txtY" />
 <br />
 <br />
 <input type="button" value="Calculate" id="btnGo" />
-
+</form>
 <script language="javascript" src="main.js"></script>
+</div>
+</div>
 </div>
 </body>
 </html>
