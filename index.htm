@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>L.I.P.</title>
@@ -16,10 +16,6 @@
 <div class="col-md-12">
 <form>
 
-Enter Interpoling Point: <input type="text" id="txtIP" />
-<br />
-
-
 <div class="form-row">
   <div class="col-7">
     <input type="text" class="form-control" placeholder="Enter X" id="txtX">
@@ -28,7 +24,7 @@ Enter Interpoling Point: <input type="text" id="txtIP" />
     <input type="text" class="form-control" placeholder="Enter Y" id="txtY">
   </div> 
   <div class="col">
-    <input type="button" class="btn btn-primary" id="btnAdd" > 
+    <input type="button" class="btn btn-primary" id="btnAdd" value="Add" > 
   </div> 
 </div>
 
@@ -42,9 +38,16 @@ Enter Interpoling Point: <input type="text" id="txtIP" />
 <tbody></tbody>
 </table>
 
-<br />
-<br />
-<input type="button" class="btn btn-submit" value="Calculate" id="btnGo" />
+<div class="form-row">
+ <div class="col">Enter Interpoling Point:&nbsp;
+ </div>
+ <div class="col">
+  <input type="text" class="form-control" placeholder="Enter Interpolung Point" id="txtIP">
+ </div>
+</div>
+
+<input type="button" value="Calculate" id="btnGo" />
+
 </form>
 <script language="javascript" src="main.js"></script>
 </div>
