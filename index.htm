@@ -1,9 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>L.I.P.</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+<meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
 
 <script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -12,6 +11,7 @@
 
 </head>
 <body>
+<div class="container">
 Enter Interpoling Point: <input type="text" id="txtIP" />
 <br />
 
@@ -19,7 +19,7 @@ X: <input type="text" id="txtX" />
 Y: <input type="text" id="txtY" />
 <input type="button" value="Add to table" id="btnAdd" />
 
-<table id="tblData">
+<table id="tblData" class="table table-responsive table-stripped table-condensed">
 <thead>
  <tr>
    <th>X</th>
@@ -34,5 +34,6 @@ Y: <input type="text" id="txtY" />
 <input type="button" value="Calculate" id="btnGo" />
 
 <script language="javascript" src="main.js"></script>
+</div>
 </body>
 </html>
