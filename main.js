@@ -1,4 +1,4 @@
-var LagInt = (x,y,xp,n) => {
+const LagInt = (x,y,xp,n) => {
 var yp=0;
 
 alert(n);
