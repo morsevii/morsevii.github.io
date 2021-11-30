@@ -23,7 +23,7 @@ $('#btnGo').click(()=>
 var tblData =$('#tblData tbody'); 
  if(iX.val()!=""&&iY!="")
    {
-     tbldata.append('<tr><td>'+iX.val()+'</td><td>'+iY.val()+'</td></tr>');
+     tblData.append('<tr><td>'+iX.val()+'</td><td>'+iY.val()+'</td></tr>');
      
      iX.val();
      iY.val();
