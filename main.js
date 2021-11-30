@@ -35,11 +35,19 @@ var tblData =$('#tblData tbody');
   });
   
 $('#btnGo').click(()=>{
-var x=[5,7,11,13,17];
-var y=[150,392,1452,2366,5202];
+var x=[];
+var y=[];
 var ip = $('#txtIP').val();
-
- alert(LagInt(x,y,ip,5))
+var tblDataTr =$('#tblData tbody tr');
+  
+if(tblDataTr.length<=2) alert("Invalid data!"); return;
+ 
+$.each(tblDataTr, ()=>{
+  
+  
+  });
+  
+  
 });
 
 });
