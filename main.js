@@ -17,11 +17,12 @@ return yp;
 }
 
 $(()=>{
-$('#btnGo').click(()=>
+$('#btnAdd').click(()=>{
+  
  var iX = $('#txtX');
  var iY = $('#txtY');
 var tblData =$('#tblData tbody'); 
- if(iX.val()!=""&&iY!="")
+ if(iX.val()!="" && iY!="")
    {
      tblData.append('<tr><td>'+iX.val()+'</td><td>'+iY.val()+'</td></tr>');
      
